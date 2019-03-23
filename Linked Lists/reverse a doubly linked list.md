@@ -40,3 +40,27 @@ static DoublyLinkedListNode reverse(DoublyLinkedListNode head)
     return result.head;
 }
 ```
+
+### 2nd solution - do not create new list, update referenced
+```csharp
+static DoublyLinkedListNode reverse(DoublyLinkedListNode head)
+    {
+        if (head == null)
+        {
+            return null;
+        }
+
+        DoublyLinkedListNode last = null;
+        DoublyLinkedListNode node = head;
+
+        while (node != null)
+        {
+            last = node.prev;
+            node.prev = node.next;
+            node.next = last;
+            node = node.prev;
+        }
+
+        return last != null ? head = last.prev : head;
+    }
+```
