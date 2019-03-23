@@ -1,6 +1,6 @@
 [Special Palindrome Again](https://www.hackerrank.com/challenges/special-palindrome-again/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings)
 
-##My notes
+## My notes
 1. String is valid only if 1 character or set of the same characters are in the middle of repeated character. E.g. - aaabbaaa is valid, but aabcaa is not valid;
 2. The result at least is equal to string length;
 
