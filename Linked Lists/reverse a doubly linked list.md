@@ -45,11 +45,6 @@ static DoublyLinkedListNode reverse(DoublyLinkedListNode head)
 ```csharp
 static DoublyLinkedListNode reverse(DoublyLinkedListNode head)
     {
-        if (head == null)
-        {
-            return null;
-        }
-
         DoublyLinkedListNode last = null;
         DoublyLinkedListNode node = head;
 
