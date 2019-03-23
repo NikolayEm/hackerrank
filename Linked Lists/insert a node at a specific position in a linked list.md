@@ -3,7 +3,7 @@
 ```csharp
 static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode head, int data, int position)
 {
-	SinglyLinkedListNode node = head;
+    SinglyLinkedListNode node = head;
 
     var nodeToInsert = new SinglyLinkedListNode(data);
 
