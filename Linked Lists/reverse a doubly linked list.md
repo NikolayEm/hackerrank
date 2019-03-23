@@ -44,18 +44,18 @@ static DoublyLinkedListNode reverse(DoublyLinkedListNode head)
 ### 2nd solution - do not create new list, update referenced
 ```csharp
 static DoublyLinkedListNode reverse(DoublyLinkedListNode head)
+{
+    DoublyLinkedListNode last = null;
+    DoublyLinkedListNode node = head;
+
+    while (node != null)
     {
-        DoublyLinkedListNode last = null;
-        DoublyLinkedListNode node = head;
-
-        while (node != null)
-        {
-            last = node.prev;
-            node.prev = node.next;
-            node.next = last;
-            node = node.prev;
-        }
-
-        return last != null ? head = last.prev : head;
+        last = node.prev;
+        node.prev = node.next;
+        node.next = last;
+        node = node.prev;
     }
+
+    return last != null ? head = last.prev : head;
+}
 ```
