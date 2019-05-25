@@ -41,7 +41,8 @@ static long substrCount(int n, string s)
             repeats++;
             i++;
         }
-
+        
+        //Triangular number
         result += repeats * (repeats + 1) / 2;
     }
 
