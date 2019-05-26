@@ -1,6 +1,5 @@
 [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem?h_r=profile)
 
-
 ```csharp
 static int marsExploration(string s)
 {

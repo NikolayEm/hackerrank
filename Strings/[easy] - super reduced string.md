@@ -1,8 +1,5 @@
 [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string/problem)
 
-Category - <b>easy</b>
-
-
 ```csharp
 static string superReducedString(string s)
 {
