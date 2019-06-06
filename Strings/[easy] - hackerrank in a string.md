@@ -29,7 +29,7 @@ static string hackerrankInString(string s)
         }
     }
 
-    return queue.Any() ? "NO" : "YES";
+    return "NO";
 }
 ```
 
@@ -55,6 +55,6 @@ static string hackerrankInString(string s)
         }
     }
 
-    return len == instance.Length ? "YES" : "NO";
+    return "NO";
 }
 ```
